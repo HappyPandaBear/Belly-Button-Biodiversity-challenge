@@ -1,9 +1,5 @@
 var jsonfile = "samples.json";
 
-// d3.json(jsonfile).then(function(d) {
-
-// });
-
 function init() {
     var sampleid = d3.select("#selDataset");
     d3.json(jsonfile).then(function(data) {
